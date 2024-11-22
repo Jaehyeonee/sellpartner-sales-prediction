@@ -15,9 +15,6 @@ data 전처리 성공
 포함된 제품 비율: 95.14%
 data 학습 데이터로 변환 성공
 
-GPU available: True (mps), used: True
-TPU available: False, using: 0 TPU cores
-HPU available: False, using: 0 HPUs
 
 모델 학습 시작...
 
@@ -51,6 +48,3 @@ HPU available: False, using: 0 HPUs
 0.639     Total estimated model params size (MB)
 772       Modules in train mode
 0         Modules in eval mode
-Sanity Checking: |                                                                                                   | 0/? [00:00<?, ?it/s]/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:424: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=9` in the `DataLoader` to improve performance.
-/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:424: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=9` in the `DataLoader` to improve performance.
-Epoch 0: 100%|████████████████████████████████████████████████| 169/169 [03:02<00:00,  0.93it/s, v_num=0, train_loss_step=99.00, val_loss=64.40, train_loss_epoch=186.0]Metric val_loss improved. New best score: 64.394               
